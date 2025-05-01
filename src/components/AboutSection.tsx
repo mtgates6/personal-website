@@ -15,7 +15,7 @@ const AboutSection = () => {
         <div className="flex flex-col lg:flex-row items-center gap-12">
           <div className="lg:w-1/2 animate-fade-in" style={{ animationDelay: "0.1s" }}>
             <div className="aspect-square max-w-md mx-auto bg-gray-200 rounded-lg overflow-hidden">
-              <img src="/golfing.jpeg" alt="about" className="w-full h-full object-contain" />
+              <img src="/golf-square.jpeg" alt="about" className="w-full h-full object-contain" />
               <div className="w-full h-full bg-gray-300 flex items-center justify-center text-gray-500">
                 About Image
               </div>
