@@ -7,27 +7,27 @@ import { Card, CardContent } from '@/components/ui/card';
 const ProjectsSection = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "A full-featured online store with product listings, shopping cart, and secure checkout.",
+      title: "Vine Vault",
+      description: "An online wine cellar management system with inventory tracking and wine recommendations.",
       tags: ["React", "Node.js", "MongoDB", "Stripe"],
-      image: "/placeholder.svg",
-      githubUrl: "#",
+      image: "/vinevault.jpeg",
+      githubUrl: "https://github.com/mtgates6/VineVault",
       liveUrl: "#",
     },
     {
-      title: "Task Management App",
-      description: "A productivity tool for organizing tasks, setting priorities, and tracking progress.",
+      title: "Workout Watch",
+      description: "An interactive fitness tracker with workout logging, progress tracking, and social sharing.",
       tags: ["React", "TypeScript", "Firebase", "Tailwind CSS"],
-      image: "/placeholder.svg",
-      githubUrl: "#",
+      image: "/workout.jpeg",
+      githubUrl: "https://github.com/mtgates6/workout-watch-app",
       liveUrl: "#",
     },
     {
-      title: "Weather Dashboard",
-      description: "Real-time weather information with forecasts, radar maps, and location-based data.",
+      title: "Dinner Date",
+      description: "A restraunt recommendation app that suggests dining options based on user preferences and locations.",
       tags: ["JavaScript", "APIs", "Chart.js", "Geolocation"],
       image: "/placeholder.svg",
-      githubUrl: "#",
+      githubUrl: "https://github.com/mtgates6/dinner-date",
       liveUrl: "#",
     },
     {
@@ -35,7 +35,7 @@ const ProjectsSection = () => {
       description: "A personal portfolio showcasing projects, skills, and professional experience.",
       tags: ["React", "Tailwind CSS", "Framer Motion", "Next.js"],
       image: "/placeholder.svg",
-      githubUrl: "#",
+      githubUrl: "https://github.com/mtgates6/personal-website",
       liveUrl: "#",
     },
   ];
