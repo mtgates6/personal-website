@@ -61,9 +61,6 @@ const ProjectsSection = () => {
                   alt={project.title} 
                   className="w-full h-full object-cover" 
                 />
-                <div className="w-full h-full bg-gray-300 flex items-center justify-center text-gray-500">
-                  Project Image
-                </div>
               </div>
               <CardContent className="p-6">
                 <h3 className="text-xl font-bold mb-2">{project.title}</h3>
