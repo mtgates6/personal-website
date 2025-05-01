@@ -10,7 +10,7 @@ const HeroSection = () => {
         <div className="flex flex-col lg:flex-row items-center">
           <div className="lg:w-1/2 mb-10 lg:mb-0 lg:pr-10 animate-fade-in">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-              Hi, I'm <span className="text-portfolio-blue">Your Name</span>
+              Hi, I'm <span className="text-portfolio-blue">Matthew Gates</span>
               <br />
               <span className="text-3xl md:text-4xl lg:text-5xl">I build things for the web</span>
             </h1>
@@ -34,7 +34,7 @@ const HeroSection = () => {
               <div className="w-64 h-64 md:w-80 md:h-80 bg-portfolio-blue/10 rounded-full"></div>
               <div className="absolute inset-0 flex items-center justify-center">
                 <div className="w-56 h-56 md:w-72 md:h-72 bg-gray-200 rounded-full overflow-hidden">
-                  {/* Replace with your actual profile image */}
+                  <img src="/profile1.jpeg" alt="profile" className="w-full h-full object-cover" />
                   <div className="w-full h-full bg-gray-300 flex items-center justify-center text-gray-500">
                     Profile Image
                   </div>

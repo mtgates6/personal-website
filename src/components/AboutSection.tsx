@@ -15,7 +15,7 @@ const AboutSection = () => {
         <div className="flex flex-col lg:flex-row items-center gap-12">
           <div className="lg:w-1/2 animate-fade-in" style={{ animationDelay: "0.1s" }}>
             <div className="aspect-square max-w-md mx-auto bg-gray-200 rounded-lg overflow-hidden">
-              {/* Replace with your actual image */}
+              <img src="/about-image.jpg" alt="about" className="w-full h-full object-cover" />
               <div className="w-full h-full bg-gray-300 flex items-center justify-center text-gray-500">
                 About Image
               </div>
@@ -37,7 +37,12 @@ const AboutSection = () => {
               interests helps me bring fresh perspectives to my work.
             </p>
             
-            <Button className="flex items-center gap-2 bg-portfolio-blue hover:bg-portfolio-darkBlue">
+            <Button 
+              as="a" 
+              href="/resume.pdf"
+              download
+              className="flex items-center gap-2 bg-portfolio-blue hover:bg-portfolio-darkBlue"
+            >
               <FileText size={16} />
               Download Resume
             </Button>
