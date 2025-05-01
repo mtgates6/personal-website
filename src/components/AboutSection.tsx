@@ -37,15 +37,14 @@ const AboutSection = () => {
               interests helps me bring fresh perspectives to my work.
             </p>
             
-            <Button 
-              as="a" 
+            <a
               href="/resume.pdf"
               download
               className="flex items-center gap-2 bg-portfolio-blue hover:bg-portfolio-darkBlue"
             >
               <FileText size={16} />
               Download Resume
-            </Button>
+            </a>
           </div>
         </div>
       </div>
