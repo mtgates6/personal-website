@@ -38,9 +38,9 @@ const AboutSection = () => {
             </p>
             
             <a
-              href="/resume.pdf"
+              href="/MatthewGatesResume.pdf"
               download
-              className="flex items-center gap-2 bg-portfolio-blue hover:bg-portfolio-darkBlue"
+              className="inline-flex items-center gap-2 px-4 py-2 bg-portfolio-blue hover:bg-portfolio-darkBlue text-white rounded"
             >
               <FileText size={16} />
               Download Resume
