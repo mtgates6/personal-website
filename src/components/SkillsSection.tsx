@@ -7,32 +7,32 @@ const SkillsSection = () => {
     {
       title: "Frontend Development",
       icon: Layout,
-      description: "HTML5, CSS3, JavaScript, React, Next.js, Tailwind CSS",
+      description: "JavaScript, React, Next.js, Tailwind CSS, HTML5, CSS3",
     },
     {
       title: "Backend Development",
       icon: Server,
-      description: "Node.js, Express, Python, Django, RESTful APIs",
+      description: "Java(SpringBoot), Python(Flask), RESTful APIs, ActivMQ Artmeis",
     },
     {
       title: "Database Management",
       icon: Database,
-      description: "MongoDB, PostgreSQL, MySQL, Firebase",
+      description: "MongoDB, PostgreSQL, Supabase, MySQL",
     },
     {
       title: "Programming Languages",
       icon: Code,
-      description: "JavaScript, TypeScript, Python, Java, C++",
+      description: "Java, Python, C++, JavaScript, Bash",
     },
     {
       title: "Tools & Platforms",
       icon: Settings,
-      description: "Git, GitHub, VS Code, Docker, AWS, Vercel",
+      description: "Gitlab CI/CD, Docker, Kubernetes, Prometheus & Grafana, Postman",
     },
     {
       title: "Professional Skills",
       icon: Briefcase,
-      description: "Problem Solving, Team Collaboration, Project Management",
+      description: "Agile & Scrum, Technical Documentation, Test Planning and validation, Version Control and Collaboration",
     },
   ];
 

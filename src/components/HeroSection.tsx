@@ -12,11 +12,12 @@ const HeroSection = () => {
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
               Hi, I'm <span className="text-portfolio-blue">Matthew Gates</span>
               <br />
-              <span className="text-3xl md:text-4xl lg:text-5xl">I build things for the web</span>
+              <span className="text-3xl md:text-4xl lg:text-5xl">I design and build modern applications.</span>
             </h1>
             <p className="text-lg text-gray-600 mb-8 max-w-2xl">
-              I'm a web developer specializing in building exceptional digital experiences.
-              Currently, I'm focused on building accessible, human-centered products.
+              I'm a full-stack software engineer with a strong background in backend systems and cloud-native development. 
+              I’m passionate about creating reliable, user-focused digital experiences — currently exploring frontend technologies 
+              like Next.js while continuing to build scalable, production-ready platforms.
             </p>
             <div className="flex flex-wrap gap-4">
               <Button className="bg-portfolio-blue hover:bg-portfolio-darkBlue text-white">
