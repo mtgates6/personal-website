@@ -56,7 +56,11 @@ const ProjectsSection = () => {
               style={{ animationDelay: `${0.1 * index}s` }}
             >
               <div className="h-48 bg-gray-200 relative">
-                {/* Replace with actual project images */}
+                <img 
+                  src={project.image} 
+                  alt={project.title} 
+                  className="w-full h-full object-cover" 
+                />
                 <div className="w-full h-full bg-gray-300 flex items-center justify-center text-gray-500">
                   Project Image
                 </div>
