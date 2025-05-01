@@ -14,14 +14,13 @@ const Navbar = () => {
     { label: 'Home', href: '#home' },
     { label: 'About', href: '#about' },
     { label: 'Skills', href: '#skills' },
-    { label: 'Projects', href: '#projects' },
-    { label: 'Contact', href: '#contact' }
+    { label: 'Projects', href: '#projects' }
   ];
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-sm shadow-sm">
       <div className="container mx-auto px-4 flex justify-between items-center h-16">
-        <a href="#" className="text-xl font-bold text-portfolio-blue">Portfolio</a>
+        <a href="#" className="text-xl font-bold text-portfolio-blue">Matthew Gates</a>
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center gap-6">
