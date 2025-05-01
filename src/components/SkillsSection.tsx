@@ -7,7 +7,7 @@ const SkillsSection = () => {
     {
       title: "Frontend Development",
       icon: Layout,
-      description: "JavaScript, React, Next.js, Tailwind CSS, HTML5, CSS3",
+      description: "JavaScript, React, Next.js, Tailwind CSS, HTML5",
     },
     {
       title: "Backend Development",
@@ -27,12 +27,12 @@ const SkillsSection = () => {
     {
       title: "Tools & Platforms",
       icon: Settings,
-      description: "Gitlab CI/CD, Docker, Kubernetes, Prometheus & Grafana, Postman",
+      description: "Gitlab CI/CD, Docker, Kubernetes, Postman, Prometheus & Grafana",
     },
     {
       title: "Professional Skills",
       icon: Briefcase,
-      description: "Agile & Scrum, Technical Documentation, Test Planning and validation, Version Control and Collaboration",
+      description: "Agile & Scrum, Technical Documentation, Test Planning and Validation, Version Control",
     },
   ];
 

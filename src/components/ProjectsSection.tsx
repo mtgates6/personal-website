@@ -9,7 +9,7 @@ const ProjectsSection = () => {
     {
       title: "Vine Vault",
       description: "An online wine cellar management system with inventory tracking and wine recommendations.",
-      tags: ["React", "Node.js", "MongoDB", "Stripe"],
+      tags: ["Next.js", "React", "TypeScript", "Tailwind CSS"],
       image: "/vinevault.jpeg",
       githubUrl: "https://github.com/mtgates6/VineVault",
       liveUrl: "#",
@@ -17,7 +17,7 @@ const ProjectsSection = () => {
     {
       title: "Workout Watch",
       description: "An interactive fitness tracker with workout logging, progress tracking, and social sharing.",
-      tags: ["React", "TypeScript", "Firebase", "Tailwind CSS"],
+      tags: ["React", "TypeScript", "Tailwind CSS", "Supabase"],
       image: "/workout.jpeg",
       githubUrl: "https://github.com/mtgates6/workout-watch-app",
       liveUrl: "#",
@@ -25,16 +25,16 @@ const ProjectsSection = () => {
     {
       title: "Dinner Date",
       description: "A restraunt recommendation app that suggests dining options based on user preferences and locations.",
-      tags: ["JavaScript", "APIs", "Chart.js", "Geolocation"],
-      image: "/placeholder.svg",
+      tags: ["Python", "Flask", "HTML/CSS", "Geolocation"],
+      image: "/dinnerdate.jpeg",
       githubUrl: "https://github.com/mtgates6/dinner-date",
       liveUrl: "#",
     },
     {
       title: "Portfolio Website",
       description: "A personal portfolio showcasing projects, skills, and professional experience.",
-      tags: ["React", "Tailwind CSS", "Framer Motion", "Next.js"],
-      image: "/placeholder.svg",
+      tags: ["React", "Tailwind CSS", "Typescript", "Vite"],
+      image: "/portfolio.jpeg",
       githubUrl: "https://github.com/mtgates6/personal-website",
       liveUrl: "#",
     },
