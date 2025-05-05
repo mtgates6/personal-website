@@ -4,6 +4,12 @@ import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
 
 const HeroSection = () => {
+  const handleScrollToSection = (sectionId: string) => {
+    document.querySelector(sectionId)?.scrollIntoView({ 
+      behavior: 'smooth'
+    });
+  };
+
   return (
     <section id="home" className="pt-24 lg:pt-32 pb-16 lg:pb-24">
       <div className="container mx-auto px-4">
@@ -16,17 +22,24 @@ const HeroSection = () => {
             </h1>
             <p className="text-lg text-gray-600 mb-8 max-w-2xl">
               I'm a full-stack software engineer with a strong background in backend systems and cloud-native development. 
-              I’m passionate about creating reliable, user-focused digital experiences — currently exploring frontend technologies 
+              I'm passionate about creating reliable, user-focused digital experiences — currently exploring frontend technologies 
               like Next.js while continuing to build scalable, production-ready platforms.
             </p>
             <div className="flex flex-wrap gap-4">
-              <Button className="bg-portfolio-blue hover:bg-portfolio-darkBlue text-white">
-                <a href="#projects" className="flex items-center">
+              <Button 
+                className="bg-portfolio-blue hover:bg-portfolio-darkBlue text-white"
+                onClick={() => handleScrollToSection('#projects')}
+              >
+                <span className="flex items-center">
                   View my work <ArrowRight size={16} className="ml-2" />
-                </a>
+                </span>
               </Button>
-              <Button variant="outline" className="border-portfolio-blue text-portfolio-blue hover:bg-portfolio-blue/10">
-                <a href="#contact">Get in touch</a>
+              <Button 
+                variant="outline" 
+                className="border-portfolio-blue text-portfolio-blue hover:bg-portfolio-blue/10"
+                onClick={() => handleScrollToSection('#contact')}
+              >
+                Get in touch
               </Button>
             </div>
           </div>
