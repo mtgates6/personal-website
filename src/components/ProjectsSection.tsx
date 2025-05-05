@@ -94,22 +94,12 @@ const ProjectsSection = () => {
                     <Github size={16} />
                     <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">Code</a>
                   </Button>
-<<<<<<< HEAD
                   {project.liveUrl && project.liveUrl !== "#" && (
                     <Button size="sm" className="flex items-center gap-1 bg-portfolio-blue hover:bg-portfolio-darkBlue">
                       <ExternalLink size={16} />
                       <a href={project.liveUrl}>Live Demo</a>
                     </Button>
                   )}
-=======
-                  <Button 
-                    size="sm" 
-                    className="flex items-center gap-1 bg-portfolio-blue hover:bg-portfolio-darkBlue transition-transform duration-200 hover:scale-105"
-                  >
-                    <ExternalLink size={16} />
-                    <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">Live Demo</a>
-                  </Button>
->>>>>>> 435868a66292846a6b508a8f8254075c7c84dd68
                 </div>
               </CardContent>
             </Card>
