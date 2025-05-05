@@ -20,7 +20,7 @@ const ProjectsSection = () => {
       tags: ["React", "TypeScript", "Tailwind CSS", "Supabase"],
       image: "/workout.jpeg",
       githubUrl: "https://github.com/mtgates6/workout-watch-app",
-      liveUrl: "#",
+      liveUrl: "https://workout-watch-app.lovable.app/",
     },
     {
       title: "Dinner Date",
@@ -36,7 +36,7 @@ const ProjectsSection = () => {
       tags: ["React", "Tailwind CSS", "Typescript", "Vite"],
       image: "/portfolio.jpeg",
       githubUrl: "https://github.com/mtgates6/personal-website",
-      liveUrl: "#",
+      liveUrl: "https://matthew-gates-portfolio.lovable.app/",
     },
   ];
 
@@ -80,10 +80,12 @@ const ProjectsSection = () => {
                     <Github size={16} />
                     <a href={project.githubUrl}>Code</a>
                   </Button>
-                  <Button size="sm" className="flex items-center gap-1 bg-portfolio-blue hover:bg-portfolio-darkBlue">
-                    <ExternalLink size={16} />
-                    <a href={project.liveUrl}>Live Demo</a>
-                  </Button>
+                  {project.liveUrl && project.liveUrl !== "#" && (
+                    <Button size="sm" className="flex items-center gap-1 bg-portfolio-blue hover:bg-portfolio-darkBlue">
+                      <ExternalLink size={16} />
+                      <a href={project.liveUrl}>Live Demo</a>
+                    </Button>
+                  )}
                 </div>
               </CardContent>
             </Card>
