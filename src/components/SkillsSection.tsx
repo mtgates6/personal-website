@@ -7,7 +7,7 @@ const SkillsSection = () => {
     {
       title: "Frontend Development",
       icon: Layout,
-      description: "JavaScript, React, Next.js, Tailwind CSS, HTML5",
+      description: "JavaScript, React, Next.js, Tailwind CSS, HTML5, Vite",
     },
     {
       title: "Backend Development",
@@ -17,7 +17,7 @@ const SkillsSection = () => {
     {
       title: "Database Management",
       icon: Database,
-      description: "MongoDB, PostgreSQL, Supabase, MySQL",
+      description: "MongoDB, PostgreSQL, Supabase, MySQL, DynamoDB",
     },
     {
       title: "Programming Languages",
@@ -27,7 +27,7 @@ const SkillsSection = () => {
     {
       title: "Tools & Platforms",
       icon: Settings,
-      description: "Gitlab CI/CD, Docker, Kubernetes, Postman, Prometheus & Grafana",
+      description: "Gitlab CI/CD, AWS Amplify, Docker, Kubernetes, Postman, Prometheus & Grafana",
     },
     {
       title: "Professional Skills",

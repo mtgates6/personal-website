@@ -8,14 +8,6 @@ import { HoverCard, HoverCardTrigger, HoverCardContent } from '@/components/ui/h
 const ProjectsSection = () => {
   const projects = [
     {
-      title: "Vine Vault",
-      description: "An online wine cellar management system with inventory tracking and wine recommendations.",
-      tags: ["Next.js", "React", "TypeScript", "Tailwind CSS"],
-      image: "/vinevault.jpeg",
-      githubUrl: "https://github.com/mtgates6/VineVault",
-      liveUrl: "#",
-    },
-    {
       title: "Workout Watch",
       description: "An interactive fitness tracker with workout logging, progress tracking, and social sharing.",
       tags: ["React", "TypeScript", "Tailwind CSS", "Supabase"],
@@ -24,20 +16,28 @@ const ProjectsSection = () => {
       liveUrl: "https://workout-watch-app.lovable.app/",
     },
     {
+      title: "Tic Tac Toe Game",
+      description: "A real time multiplayer game, featuring dynamic win detection with live updates.",
+      tags: ["React", "Typescript", "Vite", "DynamoDB", "AWS Amplify"],
+      image: "/tictactoe.jpeg",
+      githubUrl: "https://github.com/mtgates6/tactactoe",
+      liveUrl: "https://main.d2n4qkjltbjx1n.amplifyapp.com/",
+    },
+    {
+      title: "Vine Vault",
+      description: "An online wine cellar management system with inventory tracking and wine recommendations.",
+      tags: ["Next.js", "React", "TypeScript", "Tailwind CSS"],
+      image: "/vinevault.jpeg",
+      githubUrl: "https://github.com/mtgates6/VineVault",
+      liveUrl: "#",
+    },
+    {
       title: "Dinner Date",
       description: "A restraunt recommendation app that suggests dining options based on user preferences and locations.",
       tags: ["Python", "Flask", "HTML/CSS", "Geolocation"],
       image: "/dinnerdate.jpeg",
       githubUrl: "https://github.com/mtgates6/dinner-date",
       liveUrl: "#",
-    },
-    {
-      title: "Portfolio Website",
-      description: "A personal portfolio showcasing projects, skills, and professional experience.",
-      tags: ["React", "Tailwind CSS", "Typescript", "Vite"],
-      image: "/portfolio.jpeg",
-      githubUrl: "https://github.com/mtgates6/personal-website",
-      liveUrl: "https://matthew-gates-portfolio.lovable.app/",
     },
   ];
 
