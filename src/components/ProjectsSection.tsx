@@ -19,7 +19,7 @@ const ProjectsSection = () => {
       title: "Tic Tac Toe Game",
       description: "A real time multiplayer game, featuring dynamic win detection with live updates.",
       tags: ["React", "Typescript", "Vite", "DynamoDB", "AWS Amplify"],
-      image: "/tictactoe.jpeg",
+      image: "/tictactoe.png",
       githubUrl: "https://github.com/mtgates6/tactactoe",
       liveUrl: "https://main.d2n4qkjltbjx1n.amplifyapp.com/",
     },
